@@ -1858,6 +1858,10 @@ detect-port-alt@1.1.5:
     address "^1.0.1"
     debug "^2.6.0"
 
+dibs-scss-vars@^3.5.3:
+  version "3.5.3"
+  resolved "http://npm.intranet.1stdibs.com:4783/dibs-scss-vars/-/dibs-scss-vars-3.5.3.tgz#d784b5fa7cbf50923e074c6bcf14f4d64ea862bd"
+
 diff@^3.2.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.4.0.tgz#b1d85507daf3964828de54b37d0d73ba67dda56c"
@@ -2590,6 +2594,10 @@ flat-cache@^1.2.1:
 flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
+
+flow-bin@^0.64.0:
+  version "0.64.0"
+  resolved "http://npm.intranet.1stdibs.com:4783/flow-bin/-/flow-bin-0.64.0.tgz#ddd3fb3b183ab1ab35a5d5dec9caf5ebbcded167"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -5136,9 +5144,9 @@ react-dev-utils@^5.0.0:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@16.2.0:
+react-dom@^16.2.0:
   version "16.2.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
+  resolved "http://npm.intranet.1stdibs.com:4783/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -5193,9 +5201,9 @@ react-scripts@1.1.0:
   optionalDependencies:
     fsevents "1.1.2"
 
-react@16.2.0:
+react@^16.2.0:
   version "16.2.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
+  resolved "http://npm.intranet.1stdibs.com:4783/react/-/react-16.2.0.tgz#a31bd2dab89bff65d42134fa187f24d054c273ba"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"

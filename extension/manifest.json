@@ -1,0 +1,16 @@
+
+{
+    "manifest_version": 2,
+
+    "name": "nearest dibs color",
+    "description": "finding the matching color variable is tedious.",
+    "author": "1stdibs.com",
+    "version": "1.0",
+    "minimum_chrome_version": "10.0",
+    "icons": { "128": "icon.png" },
+    "permissions": [],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
