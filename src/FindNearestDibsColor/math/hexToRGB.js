@@ -8,7 +8,7 @@ export default function hexToRGB(hex: Hex): Vector3 {
     const h = hex.charAt(0) === '#' ? hex.substr(1) : hex;
     const [r, g, b] =
         (h.length === 3)
-            ? h
+            ? [h.charAt(0).repeat(2), h.charAt(1).repeat(2), h.charAt(2).repeat(2)]
             : [h.substr(0,2), h.substr(2,2), h.substr(4,2)];
 
     return [
