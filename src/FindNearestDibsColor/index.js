@@ -10,7 +10,7 @@ import {ensureHex, defaultHex} from './Hex';
 const ColorPreview = ({name, hex}) => {
     return (
         <div>
-            <div style={{backgroundColor: hex, height: '100px', width: '100px'}}></div>
+            <div style={{backgroundColor: hex, height: '100px', width: '100%'}}></div>
             <div>{name}</div>
             <div>({hex})</div>
         </div>
